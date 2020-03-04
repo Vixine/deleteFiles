@@ -5,7 +5,7 @@ Dim scrShell, objFSO, file
 desktop = CreateObject("WScript.Shell").ExpandEnvironmentStrings("%USERPROFILE%") & "\Desktop\"
 output = ""
 
-desktop = "C:\Users\Yisroel\OneDrive\Documents\GitHub\deleteFiles"
+
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 set desktopfolder = objFSO.GetFolder(desktop)
 set shortcuts = desktopfolder.Files
